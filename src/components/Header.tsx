@@ -1,6 +1,6 @@
 import React from 'react'
 import LogoFull from '../assets/logo-full.svg'
-import Logo from '../assets/Logo.svg'
+import Logo from '../assets/logo.svg'
 import '../styles/header.css'
 export default function Header() {
   const [open, setOpen] = React.useState(false)
