@@ -1,0 +1,141 @@
+@media(max-width: 1024px) {
+  .home__img-frame {
+    display: none;
+  }
+
+  .home__wrapper {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .framer-m8bJE {
+    margin-top: 45px;
+  }
+
+  .fast__inner,
+  .trust__inner {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .investment__inner {
+    flex-direction: column-reverse;
+  }
+
+  .gap {
+    row-gap: 40px;
+  }
+
+  .fgewjli {
+    display: none;
+  }
+
+  .header-main {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu-list,
+  .head-main,
+  .getstarted__frame {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .mobail__popap {
+    border: 1px solid #fff;
+    border-radius: 12px;
+    padding: 10px 16px 36px;
+    background-color: #1E1F25;
+  }
+
+  .menu-list {
+    row-gap: 34px;
+    margin-top: 30px;
+
+
+  }
+}
+
+@media(max-width: 768px) {
+  .content {
+    width: 350px;
+  }
+
+  .button__primary,
+  .frame-center {
+    width: 100%;
+  }
+
+  .frame__bts {
+    flex-direction: column;
+  }
+
+  .fast-content {
+    font-size: 1rem;
+  }
+
+  .frame__vector-elips {
+    width: 64px;
+    height: 64px;
+  }
+
+  .frame__vector-elips svg {
+    width: 2rem;
+  }
+
+  /* .mobail__popap { */
+  /* background-color: rgba(0, 0, 0, 0.688);
+    bottom: 0;
+    border: 1px solid #fff;
+    position: fixed;
+    right: 0;
+    top: 0px;
+    -webkit-transform: translateY(-1000px);
+    transform: translateY(-1000px);
+    width: 100%;
+    padding: 1.5rem;
+    z-index: 1;
+    flex-direction: column;
+    bottom: 0;
+    height: 70vh; */
+
+  /* } */
+
+  .footer__copyrigth-block {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+}
+
+.title-block {
+  display: none;
+}
+
+@media(min-width: 360px) {
+  .title {
+    color: #ffff;
+    font-family: NeueMachina-Bold;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 110%;
+    padding-bottom: 1rem;
+  }
+
+  .title-block {
+    display: block;
+    text-align: center;
+  }
+
+  .investment__content {
+    display: none;
+  }
+
+  .hidden-desc {
+    padding-bottom: 1rem;
+  }
+
+}
