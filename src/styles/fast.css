@@ -123,11 +123,14 @@
 
 .get__started {
   text-align: center;
+  position: relative;
+  margin: 32px 0;
+}
+
+.newslater-block {
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
-  margin: 32px 0;
 }
 
 .frame-subtitle {

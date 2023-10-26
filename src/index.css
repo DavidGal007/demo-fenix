@@ -83,15 +83,9 @@ button {
 .container {
   max-width: 1110px;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 8px;
   overflow: hidden;
 }
-
-/* .allwrapper {
-  max-width: 1440px;
-  overflow: hidden;
-  margin: 0 auto;
-} */
 
 .wrapper {
   background-image: url("./assets/bg.svg");
@@ -136,6 +130,7 @@ button {
 
   .investment__content {
     display: block;
+    flex: 1 0;
   }
 
   .header__burger-menu {
@@ -154,10 +149,11 @@ button {
     width: 100%;
   }
 
+  header {
+    padding: 0;
+  }
+
 }
-
-@media (min-width: 1200px) and (max-width: 1439px) {}
-
 
 .home__content {
   flex-basis: 45%;
@@ -254,22 +250,6 @@ button {
   padding-top: 1rem;
 }
 
-.swiper {
-  width: 100%;
-  height: 100%;
-}
-
 .swiper-slide {
-
-  /* Center slide text vertically */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  width: auto !important;
 }
