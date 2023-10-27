@@ -24,6 +24,10 @@ header {
     display: flex;
     row-gap: 34px;
   }
+
+  .frame-subtitle {
+    padding-top: 1.5rem;
+  }
 }
 
 .getstarted__frame {
@@ -44,13 +48,26 @@ header {
   background: linear-gradient(266deg, #0DFBA4 -0.27%, #1E68F6 73.78%, #009EE3 98.59%);
 }
 
+.button__primary:hover,
+.subscription .submit-email:hover {
+  filter: brightness(1.1);
+  cursor: pointer;
+}
+
+
 .button__primary-outline {
   background-color: transparent;
   padding: 18px 24px;
+  transition: background 500ms ease;
   font-family: NeueMachina-Bold;
   border: 1px solid #ffff;
   font-size: 1rem;
   border-radius: 100px;
+}
+
+.button__primary-outline:hover {
+  background-color: #ffff;
+  color: #000;
 }
 
 .menu-list {
