@@ -1,6 +1,5 @@
-import React, { FC } from "react";
+import { FC } from "react";
 import '../styles/invest.css'
-import Graph from '../assets/graph.svg'
 interface CardProps {
   icon: JSX.Element
   name: string

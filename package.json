@@ -1,5 +1,6 @@
 {
   "name": "crypto-order",
+  "homepage": "http://landing.fenixtrading.net",
   "private": true,
   "version": "0.0.0",
   "type": "module",
